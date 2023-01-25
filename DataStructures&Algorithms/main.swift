@@ -7,5 +7,5 @@
 
 import Foundation
 
-MyArray.test()
+LinkedList.test()
 
