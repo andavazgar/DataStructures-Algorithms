@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		41EBAEC72980D40500B83DE4 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EBAEC62980D40500B83DE4 /* main.swift */; };
+		41EBAED12980D45C00B83DE4 /* MyArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EBAED02980D45C00B83DE4 /* MyArray.swift */; };
+		41EBAED32980D4C700B83DE4 /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EBAED22980D4C700B83DE4 /* LinkedList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,8 @@
 /* Begin PBXFileReference section */
 		41EBAEC32980D40500B83DE4 /* DataStructures&Algorithms */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "DataStructures&Algorithms"; sourceTree = BUILT_PRODUCTS_DIR; };
 		41EBAEC62980D40500B83DE4 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		41EBAED02980D45C00B83DE4 /* MyArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyArray.swift; sourceTree = "<group>"; };
+		41EBAED22980D4C700B83DE4 /* LinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +62,18 @@
 			isa = PBXGroup;
 			children = (
 				41EBAEC62980D40500B83DE4 /* main.swift */,
+				41EBAECF2980D44500B83DE4 /* Data Structures */,
 			);
 			path = "DataStructures&Algorithms";
+			sourceTree = "<group>";
+		};
+		41EBAECF2980D44500B83DE4 /* Data Structures */ = {
+			isa = PBXGroup;
+			children = (
+				41EBAED02980D45C00B83DE4 /* MyArray.swift */,
+				41EBAED22980D4C700B83DE4 /* LinkedList.swift */,
+			);
+			path = "Data Structures";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,7 +134,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41EBAED32980D4C700B83DE4 /* LinkedList.swift in Sources */,
 				41EBAEC72980D40500B83DE4 /* main.swift in Sources */,
+				41EBAED12980D45C00B83DE4 /* MyArray.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
