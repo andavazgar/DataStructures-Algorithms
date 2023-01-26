@@ -7,5 +7,5 @@
 
 import Foundation
 
-LinkedList.test()
+Stack.test()
 
