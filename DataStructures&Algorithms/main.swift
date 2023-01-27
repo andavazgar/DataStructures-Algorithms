@@ -7,5 +7,5 @@
 
 import Foundation
 
-Stack.test()
+Queue.test()
 

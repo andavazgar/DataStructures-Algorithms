@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		41C5A9562981AA7900EC230D /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C5A9552981AA7900EC230D /* Stack.swift */; };
+		41C5A9582982E89F00EC230D /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C5A9572982E89F00EC230D /* Queue.swift */; };
+		41C5A95A2983469900EC230D /* StackQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C5A9592983469900EC230D /* StackQueue.swift */; };
+		41C5A95C29834A5600EC230D /* PriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C5A95B29834A5600EC230D /* PriorityQueue.swift */; };
 		41EBAEC72980D40500B83DE4 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EBAEC62980D40500B83DE4 /* main.swift */; };
 		41EBAED12980D45C00B83DE4 /* MyArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EBAED02980D45C00B83DE4 /* MyArray.swift */; };
 		41EBAED32980D4C700B83DE4 /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EBAED22980D4C700B83DE4 /* LinkedList.swift */; };
@@ -27,6 +30,9 @@
 
 /* Begin PBXFileReference section */
 		41C5A9552981AA7900EC230D /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
+		41C5A9572982E89F00EC230D /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
+		41C5A9592983469900EC230D /* StackQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackQueue.swift; sourceTree = "<group>"; };
+		41C5A95B29834A5600EC230D /* PriorityQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriorityQueue.swift; sourceTree = "<group>"; };
 		41EBAEC32980D40500B83DE4 /* DataStructures&Algorithms */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "DataStructures&Algorithms"; sourceTree = BUILT_PRODUCTS_DIR; };
 		41EBAEC62980D40500B83DE4 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		41EBAED02980D45C00B83DE4 /* MyArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyArray.swift; sourceTree = "<group>"; };
@@ -75,6 +81,9 @@
 				41EBAED02980D45C00B83DE4 /* MyArray.swift */,
 				41EBAED22980D4C700B83DE4 /* LinkedList.swift */,
 				41C5A9552981AA7900EC230D /* Stack.swift */,
+				41C5A9572982E89F00EC230D /* Queue.swift */,
+				41C5A9592983469900EC230D /* StackQueue.swift */,
+				41C5A95B29834A5600EC230D /* PriorityQueue.swift */,
 			);
 			path = "Data Structures";
 			sourceTree = "<group>";
@@ -137,9 +146,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41C5A95A2983469900EC230D /* StackQueue.swift in Sources */,
+				41C5A9582982E89F00EC230D /* Queue.swift in Sources */,
 				41C5A9562981AA7900EC230D /* Stack.swift in Sources */,
 				41EBAED32980D4C700B83DE4 /* LinkedList.swift in Sources */,
 				41EBAEC72980D40500B83DE4 /* main.swift in Sources */,
+				41C5A95C29834A5600EC230D /* PriorityQueue.swift in Sources */,
 				41EBAED12980D45C00B83DE4 /* MyArray.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -26,6 +26,10 @@ struct Stack<T> {
     func isEmpty() -> Bool {
         content.count < 1
     }
+    
+    func toArray() -> [T] {
+        content
+    }
 }
 
 
